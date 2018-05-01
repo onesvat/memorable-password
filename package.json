@@ -1,0 +1,33 @@
+{
+  "name": "memorable-password",
+  "version": "1.0.0",
+  "description": "Memorable password generator.",
+  "author": "Onur Nesvat <onurnesvat@gmail.com>",
+  "keywords": [
+    "password",
+    "generator",
+    "pass",
+    "random",
+    "browser",
+    "crypto",
+    "security"
+  ],
+  "bugs": {
+    "web": "http://github.com/onesvat/memorable-password/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onesvat/memorable-password.git"
+  },
+  "dependencies": {
+    "yargs-parser": "^8.0.0"
+  },
+  "main": "index",
+  "bin": "./bin/memorable-generator"
+}
