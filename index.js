@@ -37,7 +37,10 @@ this.run = function () {
     var separator = argv.s || "-";
     var password_count = argv.n || 1;
 
-    var words = require('fs').readFileSync('words.txt', 'utf-8')
+    var path = require('path'),
+        fs = require('fs');
+
+    var words = fs.readFileSync(path.dirname(fs.realpathSync(__filename)) + '/words.txt', 'utf-8')
         .split('\n');
 
 
