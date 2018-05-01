@@ -29,5 +29,5 @@
     "yargs-parser": "^8.0.0"
   },
   "main": "index",
-  "bin": "./bin/memorable-generator"
+  "bin": "./bin/memorable-password"
 }
